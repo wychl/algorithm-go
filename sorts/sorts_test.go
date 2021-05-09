@@ -25,6 +25,14 @@ func TestBubble(t *testing.T) {
 	testFramework(t, bubbleSort)
 }
 
+func TestBubble2(t *testing.T) {
+	testFramework(t, bubbleSort2)
+}
+
+func TestBubble3(t *testing.T) {
+	testFramework(t, bubbleSort3)
+}
+
 func TestInsertion(t *testing.T) {
 	testFramework(t, InsertionSort)
 }
@@ -64,6 +72,22 @@ func BenchmarkBubble(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		for _, test := range sortTests {
 			bubbleSort(test.input)
+		}
+	}
+}
+
+func BenchmarkBubble2(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		for _, test := range sortTests {
+			bubbleSort2(test.input)
+		}
+	}
+}
+
+func BenchmarkBubble3(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		for _, test := range sortTests {
+			bubbleSort3(test.input)
 		}
 	}
 }

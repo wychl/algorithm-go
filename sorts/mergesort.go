@@ -1,6 +1,10 @@
 //Package sorts a package for demonstrating sorting algorithms in Go
+// https://zh.wikipedia.org/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F
+// https://en.wikipedia.org/wiki/Merge_sort
+
 package sorts
 
+// 迭代法（Bottom-up）
 func merge(a []int, b []int) []int {
 
 	var r = make([]int, len(a)+len(b))

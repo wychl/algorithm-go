@@ -1,4 +1,8 @@
 //Package sorts a package for demonstrating sorting algorithms in Go
+// https://zh.wikipedia.org/wiki/%E5%A0%86%E7%A9%8D
+// https://zh.wikipedia.org/wiki/%E5%A0%86%E6%8E%92%E5%BA%8F
+//https://web.archive.org/web/20180110174742/http://bubkoo.com/2014/01/14/sort-algorithm/heap-sort/
+
 package sorts
 
 type maxHeap struct {

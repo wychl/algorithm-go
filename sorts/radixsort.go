@@ -1,3 +1,7 @@
+// 一种非比较型整数排序算法
+// https://en.wikipedia.org/wiki/Radix_sort
+// https://zh.wikipedia.org/wiki/%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8F
+
 package sorts
 
 func max(arr []int) int {
