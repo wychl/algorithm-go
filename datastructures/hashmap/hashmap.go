@@ -1,3 +1,5 @@
+// https://zh.wikipedia.org/wiki/%E6%95%A3%E5%88%97%E8%A1%A8
+
 package hashmap
 
 import (
